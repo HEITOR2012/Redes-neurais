@@ -1,0 +1,49 @@
+ 
+<html>
+  <head>
+    <title>Reconhecimento de Imagem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h3 class="bnt bnt-default heading">RECONHENCIMENTO DE IMAGEM</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">O modelo foi treinado para identificar estes objetos:</p>
+
+      <label>Visualização da webcam:</label>
+
+      <br>Garrafa<br>
+
+      <br>eu<br>
+
+      <br>Brinquedo<br>
+
+      <br>globo<br>
+
+      <button onclick="take_snapshot();" class="btn btn-info">Capturar Imagem</button>
+      <button onclick="check()"  class="btn btn-success">Indentificar Imagem</button>
+
+
+      <p style="font-size: 22px;">Objeto:  </p>
+      <p style="font-size: 22px;">Precisão:  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
